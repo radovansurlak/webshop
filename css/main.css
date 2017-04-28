@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,700");
+a {
+  text-decoration: none;
+  color: black; }
+
+menu {
+  margin: 0 auto;
+  padding: 0;
+  line-height: 5vw;
+  height: 5vw;
+  width: 80vw;
+  background: rgba(0, 0, 0, 0.1);
+  margin-bottom: 2vw; }
+  menu ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around; }
+  menu ul li {
+    display: inline;
+    font-size: 1.5vw;
+    font-weight: 700; }
+
+html {
+  font-family: Roboto, sans-serif; }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 20px;
+  width: 20%;
+  height: 30vw;
+  margin: 1vw; }
+  section h1 {
+    font-weight: 700;
+    font-size: 2vw;
+    margin: 1vw 0 0.5vw; }
+  section h2 {
+    font-weight: 300;
+    font-size: 2.5vw;
+    margin: 0.5vw 0 1vw; }
+  section div.product.product__image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 50%; }
+  section button {
+    font-family: unset;
+    font-size: 1.7vw;
+    border: none;
+    width: 75%;
+    padding: 1vw;
+    box-sizing: border-box;
+    background: orange;
+    outline: none;
+    box-shadow: none;
+    transition: all 300ms;
+    cursor: pointer;
+    border-radius: 20px; }
+    section button:active {
+      transform: scale(0.95); }
+
+@media screen and (max-width: 900px) {
+  section {
+    width: 26%; } }
+@media screen and (max-width: 600px) {
+  section {
+    width: 40%; } }
+@media screen and (max-width: 400px) {
+  section {
+    width: 80%; } }
+
+/*# sourceMappingURL=main.css.map */
